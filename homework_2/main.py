@@ -65,7 +65,7 @@ def show_student(id: int) -> None:
 
 def add_student(name: str, details: str | None):
     identifier = 1
-    if students:
+    if students is not []:
         identifier = students[-1]["id"] + 1
     instance = {"id": identifier, "name": name, "marks": [], "info": details}
     students.append(instance)

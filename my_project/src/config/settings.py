@@ -41,10 +41,12 @@ INSTALLED_APPS = [
     'users',
     'orders',
     'products',
-
-
+    'food',
+    'delivery',
+    'fixtures',
 
 ]
+
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,

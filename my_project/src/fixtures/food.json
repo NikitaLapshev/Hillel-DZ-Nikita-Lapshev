@@ -1,0 +1,18 @@
+[
+  {
+    "model": "food.category",
+    "pk": 1,
+    "fields": {
+      "name": "Fruits"
+    }
+  },
+  {
+    "model": "food.product",
+    "pk": 1,
+    "fields": {
+      "name": "Apple",
+      "category": 1,
+      "price": "50.00"
+    }
+  }
+]
